@@ -1,0 +1,76 @@
+{
+  "cities": [
+    {
+      "id":"meghalaya",
+      "city": "meghalaya",
+      "img": "./Pages/search_photos/meghalaya.jpg",
+      "description": "Meghalaya, state of India, located in the northeastern part of the country. It is bounded by the Indian state of Assam to the north and northeast and by Bangladesh to the south and southwest. The state capital is the hill town of Shillong, located in east-central Meghalaya."
+    },
+    {
+      "id": "uttarakhand",
+      "city": "uttarakhand",
+      "img": "./Pages/search_photos/uttarakhand.png",
+      "description": "Located at the foothills of the Himalayan mountain ranges, Uttarakhand is largely a hilly State, having international boundaries with China (Tibet) in the north and Nepal in the east. On its north-west lies Himachal Pradesh, while on the south is Uttar Pradesh. It is rich in natural resources especially water and forests with many glaciers, rivers, dense forests and snow-clad mountain peaks"
+    },
+    {
+      "id": "madhya pradesh",
+      "city": "madhya pradesh",
+      "img": "./Pages/search_photos/mp.JPG",
+      "description":"Madhya Pradesh is well known for its mighty forts and enthralling history preserved in the walls of these grandeurs. Have a look at some of the stunning masterpieces which are now the symbol of a bygone era and are part of India's rich historical & cultural treasures."
+    },
+    {
+      "id": "kerala",
+      "city": "kerala",
+      "img": "./Pages/search_photos/kerela.webp",
+      "description": "Kerala, southwestern coastal state of India. It is a small state, constituting only about 1 percent of the total area of the country. Kerala stretches for about 360 miles (580 km) along the Malabar Coast, varying in width from roughly 20 to 75 miles (30 to 120 km). It is bordered by the states of Karnataka (formerly Mysore) to the north and Tamil Nadu to the east and by the Arabian Sea to the south and west."
+    },
+    {
+      "id": "west bengal",
+      "city": "west bengal",
+      "img": "./Pages/search_photos/westbengal.jpg",
+      "description": "West Bengal is famous for its terracotta temples of Bishnupur. Hazarduari Palace, a popular tourist attraction, is known to have the second largest chandelier in the world and also the largest staircase in India."
+    },
+    {
+      "id": "uttar pradesh",
+      "city": "uttar pradesh",
+      "img": "./Pages/search_photos/uttarpradesh.avif",
+      "description": "Uttar Pradesh is bordered by the state of Uttarakhand and the country of Nepal to the north, the state of Bihar to the east, the states of Jharkhand and Chhattisgarh to the southeast, the state of Madhya Pradesh to the south, and the states of Rajasthan and Haryana and the national capital territory of Delhi to the west."
+    },
+    {
+      "id": "delhi",
+      "city": "delhi",
+      "img": "./Pages/search_photos/delhi.webp",
+      "description": "Delhi is of great historical significance as an important commercial, transport, and cultural hub, as well as the political centre of India. According to legend, the city was named for Raja Dhilu, a king who reigned in the region in the 1st century BCE. The names by which the city has been known—including Delhi, Dehli, Dilli, and Dhilli."
+    },
+    {
+      "id": "assam",
+      "city": "assam",
+      "img": "./Pages/search_photos/assam.avif",
+      "description": "The name Assam is derived from the word asama, meaning “peerless” in the now extinct Ahom language. The neighbouring states of Arunachal Pradesh, Nagaland, Mizoram, and Meghalaya were once part of Assam."
+    },
+    {
+      "id": "gujarat",
+      "city": "gujarat",
+      "img": "./Pages/search_photos/gujarat.jpg",
+      "description": "Gujarat is famous for its traditional clothing, food and natural landscape. Asiatic lions, Rann of Kutch (White Desert), colourful handicrafts, festival and culture are some of the things that make Gujarat famous."
+    },
+    {
+      "id": "punjab",
+      "city": "punjab",
+      "img": "./Pages/search_photos/punjab.webp",
+      "description": "Punjab, state of India, located in the northwestern part of the subcontinent. It is bounded by Jammu and Kashmir union territory to the north, Himachal Pradesh state to the northeast, Haryana state to the south and southeast, and Rajasthan state to the southwest and by the country of Pakistan to the west."
+    },
+    {
+      "id": "tamil nadu",
+      "city": "tamil nadu",
+      "img": "./Pages/search_photos/tamilnadu.avif",
+      "description": "Tamil Nadu, state of India, located in the extreme south of the subcontinent. It is bounded by the Indian Ocean to the east and south and by the states of Kerala to the west, Karnataka (formerly Mysore) to the northwest, and Andhra Pradesh to the north."
+    },
+    {
+      "id": "rajasthan",
+      "city": "rajasthan",
+      "img": "./Pages/search_photos/rajasthan.jpg",
+      "description": "Rajasthan is a state located in northern India. The state covers an area of 342,239 square kilometres or 10.4 percent of the total geographical area of India."
+    }
+  ]
+}
