@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madhya Pradesh</title>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/0.0.0-insiders.4a070ac/tailwind.min.css">
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.1/dist/tailwind.min.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@1.10.0/dist/full.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <header class="text-white-600 body-font head">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center pl-16 pr-10 navbar">
+            <a class="flex title-font font-medium items-center text-white-900 mb-4 md:mb-0">
+                <img class="logo" src="../Travel_Guru.png"></img>
+                <span class="ml-3 text-3xl">Travel Guru</span>
+            </a>
+            <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+
+                <a href="#intro" class="mr-5 text-2xl hover:text-white-900">Introduction</a>
+                <a href="#photo" class="mr-5 text-2xl hover:text-white-900">Photos</a>
+                <a href="#contact" class="mr-5 text-2xl hover:text-white-900">Contact Us</a>
+                <button class="w-40 p-2 rounded-xl focus:outline-none bg-red-200 " onclick="search()">Search</button>
+            </nav>
+        </div>
+    </header>
+
+    <div class="carosel">
+        <div class="img">
+            <img src="./mp.avif" alt="" srcset="">
+        </div>
+    </div>
+
+
+    <div class="detail">
+        <div class="description">
+            Madhya Pradesh, often called the "Heart of India," is a central Indian state known for its rich history, diverse culture, and stunning landscapes. It is home to magnificent heritage sites like Khajuraho Temples, famous for their intricate carvings, and Sanchi Stupa, a UNESCO World Heritage Site reflecting Buddhist heritage. The state boasts impressive forts, such as Gwalior Fort, and majestic palaces like those in Orchha and Mandu. Madhya Pradesh is also a paradise for nature lovers, with wildlife reserves like Kanha, Bandhavgarh, and Pench National Parks, which are known for their tiger population. The Narmada River, one of India's holiest rivers, flows through the state, creating breathtaking natural wonders like the Marble Rocks at Bhedaghat. The state's vibrant culture is reflected in its tribal traditions, folk music, and festivals like Lokrang and Khajuraho Dance Festival. Economically, Madhya Pradesh thrives on agriculture, tourism, and industries, with cities like Indore and Bhopal emerging as commercial hubs. With its blend of history, spirituality, wildlife, and modern development, Madhya Pradesh offers a unique and enriching experience for visitors.<br><span id="dots">...</span>
+            <span id="more">
+                Madhya Pradesh stands as a perfect blend of history, culture, nature, and modern development, making it a unique and diverse destination. From ancient temples and grand forts to lush forests and bustling cities, the state offers something for every traveler. Its rich heritage, vibrant traditions, and scenic beauty continue to captivate visitors, while ongoing development is shaping it into a thriving economic hub. Whether exploring its architectural marvels, experiencing its wildlife, or immersing in its cultural festivals, Madhya Pradesh truly embodies the essence of India’s heartland.</span>
+        </div>
+        <button onclick="myFunction()" id="myBtn">Read more</button>
+    </div>
+
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-col text-center w-full mb-20">
+                <h1 class="sm:text-3xl text-5xl font-medium title-font mb-4 text-gray-900">"Heritagescape"</h1>
+                <p class="lg:w-2/3 mx-auto leading-relaxed text-base text-3xl">Discover the land of heritage and timeless charm</p>
+            </div>
+
+            <div class="flex flex-wrap -m-4">
+                <div class="lg:w-1/3 sm:w-1/2 p-4">
+                    <div class="flex relative">
+                        <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
+                            src="https://plus.unsplash.com/premium_photo-1661930618375-aafabc2bf3e7?q=80&w=1999&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                        <div
+                            class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">&emsp;
+                            </h2>
+                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Gwalior Fort</h1>
+                            <p class="leading-relaxed">Gwalior Fort, a majestic hilltop fortress, showcases stunning architecture and rich history.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/3 sm:w-1/2 p-4">
+                    <div class="flex relative">
+                        <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
+                            src="https://images.pexels.com/photos/599708/pexels-photo-599708.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">
+                        <div
+                            class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">&emsp;
+                            </h2>
+                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Pachmarhi</h1>
+                            <p class="leading-relaxed">Pachmarhi, the "Queen of Satpura," is a serene hill station in Madhya Pradesh known for its waterfalls, caves, and lush greenery.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/3 sm:w-1/2 p-4">
+                    <div class="flex relative">
+                        <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
+                            src="https://images.pexels.com/photos/770392/pexels-photo-770392.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">
+                        <div
+                            class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">&emsp;
+                            </h2>
+                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Kanha National Park</h1>
+                            <p class="leading-relaxed">Kanha National Park is a breathtaking wildlife sanctuary, home to Bengal tigers, lush forests, and diverse flora and fauna.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/3 sm:w-2/3 p-4">
+                    <div class="flex relative card-img">
+                        <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
+                            src="https://images.unsplash.com/photo-1608181017892-cc4a542570d5?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                        <div
+                            class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">&emsp;
+                            </h2>
+                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Chausath Yogini Temple</h1>
+                            <p class="leading-relaxed">Chausath Yogini Temple in Morena is an ancient heritage site with spiritual significance and stunning architecture.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/3 sm:w-1/2 p-4">
+                    <div class="flex relative card-img">
+                        <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
+                            src="https://images.pexels.com/photos/10975757/pexels-photo-10975757.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">
+                        <div
+                            class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">&emsp;
+                            </h2>
+                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Jama Masjid</h1>
+                            <p class="leading-relaxed">Jama Masjid in Mandu is a historic mosque with grand domes, elegant arches, and impressive Afghan-style architecture.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/3 sm:w-1/2 p-4">
+                    <div class="flex relative card-img">
+                        <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
+                            src="https://images.pexels.com/photos/10483147/pexels-photo-10483147.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">
+                        <div
+                            class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">&emsp;
+                            </h2>
+                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Bhedaghat</h1>
+                            <p class="leading-relaxed">Bhedaghat in Madhya Pradesh is famous for its stunning marble rocks, scenic boat rides, and the breathtaking Dhuandhar Waterfalls.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-white-600 body-font foot footer">
+        <div
+            class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+            <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mt-0 mt-10">
+                <a class="flex title-font font-medium items-center md:justify-start justify-center text-white-900">
+                    <img class="logo" src="../Travel_Guru.png"></img>
+                    <span class="ml-3 text-xl">Travel Guru</span>
+                </a>
+                <p class="mt-2 text-sm text-white-500">Your Tourism guide for best ever places you can think of visiting
+                </p>
+            </div>
+            <div class="flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center order-first">
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <h2
+                        class="title-font font-extrabold text-white-900 underline font-serif tracking-widest text-sm mb-3">
+                        State Tourism Websites</h2>
+                    <nav class="list-none mb-10">
+                        <li>
+                            <a href="https://www.gujarattourism.com/"
+                                class="text-white-600 hover:text-white-800">Gujrat</a>
+                        </li>
+                        <li>
+                            <a href="https://uttarakhandtourism.gov.in/"
+                                class="text-white-600 hover:text-white-800">Uttrakhand</a>
+                        </li>
+                        <li>
+                            <a href="http://megtourism.gov.in/"
+                                class="text-white-600 hover:text-white-800">Meghalaya</a>
+                        </li>
+                        <li>
+                            <a href="https://www.mptourism.com/" class="text-white-600 hover:text-white-800">Madhya
+                                Pradhesh</a>
+                        </li>
+                    </nav>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <h2 class="title-font font-medium text-white-900 tracking-widest text-sm mb-3">&emsp;</h2>
+                    <nav class="list-none mb-10">
+                        <li>
+                            <a href="https://www.keralatourism.org/"
+                                class="text-white-600 hover:text-white-800">Kerela</a>
+                        </li>
+                        <li>
+                            <a href="https://wbtourism.gov.in/" class="text-white-600 hover:text-white-800">West
+                                Bengal</a>
+                        </li>
+                        <li>
+                            <a href="http://www.uptourism.gov.in/" class="text-white-600 hover:text-white-800">Uttar
+                                Pradesh</a>
+                        </li>
+                        <li>
+                            <a href="https://tourism.bihar.gov.in/"
+                                class="text-white-600 hover:text-white-800">Bihar</a>
+                        </li>
+                    </nav>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <h2 class="title-font font-medium text-white-900 tracking-widest text-sm mb-3">&emsp;</h2>
+                    <nav class="list-none mb-10">
+                        <li>
+                            <a href="https://tourism.assam.gov.in/"
+                                class="text-white-600 hover:text-white-800">Assam</a>
+                        </li>
+                        <li>
+                            <a href="https://haryanatourism.gov.in/"
+                                class="text-white-600 hover:text-white-800">Haryana</a>
+                        </li>
+                        <li>
+                            <a href="http://punjabtourism.gov.in/"
+                                class="text-white-600 hover:text-white-800">Punjab</a>
+                        </li>
+                        <li>
+                            <a href="http://www.tamilnadutourism.org/" class="text-white-600 hover:text-white-800">Tamil
+                                Nadu</a>
+                        </li>
+                    </nav>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <h2
+                        class="title-font font-extrabold underline text-white-900 font-serif tracking-widest text-sm mb-3">
+                        Union Territory Tourism</h2>
+                    <nav class="list-none mb-10">
+                        <li>
+                            <a href="http://www.delhitourism.gov.in/delhitourism/index.jsp"
+                                class="text-white-600 hover:text-white-800">Delhi</a>
+                        </li>
+                        <li>
+                            <a href="https://www.andaman.gov.in/" class="text-white-600 hover:text-white-800">Andaman
+                                Nicobar</a>
+                        </li>
+                        <li>
+                            <a href="https://www.lakshadweeptourism.com/"
+                                class="text-white-600 hover:text-white-800">Lakshwadweep</a>
+                        </li>
+                        <li>
+                            <a href="http://www.pondytourism.in/"
+                                class="text-white-600 hover:text-white-800">Pudducherry</a>
+                        </li>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <script src="./Script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assam</title>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/0.0.0-insiders.4a070ac/tailwind.min.css">
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.1/dist/tailwind.min.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@1.10.0/dist/full.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <header class="text-white-600 body-font head">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center pl-16 pr-10 navbar">
+            <a class="flex title-font font-medium items-center text-white-900 mb-4 md:mb-0">
+                <img class="logo" src="../Travel_Guru.png"></img>
+                <span class="ml-3 text-3xl">Travel Guru</span>
+            </a>
+            <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+
+                <a href="#intro" class="mr-5 text-2xl hover:text-white-900">Introduction</a>
+                <a href="#photo" class="mr-5 text-2xl hover:text-white-900">Photos</a>
+                <a href="#contact" class="mr-5 text-2xl hover:text-white-900">Contact Us</a>
+                <button class="w-40 p-2 rounded-xl focus:outline-none bg-red-200 " onclick="search()">Search</button>
+            </nav>
+        </div>
+    </header>
+
+    <div class="carosel">
+        <div class="img">
+            <img src="./assam1.jpg" alt="" srcset="">
+        </div>
+    </div>
+
+
+    <div class="detail">
+        <div class="description">
+            Assam, a picturesque state in northeastern India, is known for its lush green landscapes, rich biodiversity, and vibrant cultural heritage. The mighty Brahmaputra River flows through the state, shaping its geography and providing fertile land for agriculture. Assam shares its borders with several northeastern states, as well as Bhutan and Bangladesh, making it a crucial gateway to Southeast Asia. The state enjoys a subtropical monsoon climate, with heavy rainfall during the monsoon season and moderate winters, making it an ideal region for agriculture and tea cultivation.
+
+            Assam is home to some of India’s most important wildlife reserves, making it a hotspot for biodiversity. Kaziranga National Park, a UNESCO World Heritage Site, is famous for its population of the one-horned rhinoceros, an endangered species found only in this region. Manas National Park, another UNESCO-listed site, is home to tigers, elephants, and a wide variety of birds. The state's forests and wetlands also support diverse flora and fauna, attracting nature lovers and wildlife enthusiasts from across the world.
+
+            Economically, Assam is one of India's major producers of tea, contributing over 50% of the country’s total tea production. The tea estates of Assam are globally renowned for their strong, malty flavors. Apart from tea, the state is rich in natural resources such as petroleum, coal, and limestone, with major oil refineries located in Digboi, Numaligarh, and Bongaigaon. Agriculture remains the backbone of Assam’s economy, with rice being the staple crop. Efforts are also being made to boost industries such as tourism, handicrafts, and information technology<span id="dots">...</span> 
+            <span id="more">
+                Tourism in Assam is a growing industry, attracting visitors with its natural beauty, wildlife, and historical landmarks. The Kamakhya Temple, a revered Shakti Peetha, is a major pilgrimage site in Guwahati. Majuli Island, the world's largest river island, is known for its scenic landscapes and ancient monasteries. The historical town of Sivasagar offers a glimpse into Assam’s royal past, with remnants of the Ahom dynasty’s rule. Adventure enthusiasts also explore the scenic routes connecting Assam to Arunachal Pradesh and Meghalaya, offering breathtaking views of mountains, rivers, and forests.    
+            </span>
+        </div>
+        <button onclick="myFunction()" id="myBtn">Read more</button>
+    </div>
+
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-col text-center w-full mb-20">
+                <h1 class="sm:text-3xl text-5xl font-medium title-font mb-4 text-gray-900">Attractions</h1>
+                <p class="lg:w-2/3 mx-auto leading-relaxed text-base text-3xl">Explore the place of piety and natural beauty</p>
+            </div>
+
+            <div class="flex flex-wrap -m-4">
+                <div class="lg:w-1/3 sm:w-1/2 p-4">
+                    <div class="flex relative">
+                        <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
+                            src="https://plus.unsplash.com/premium_photo-1661828159832-19d8340f8e09?q=80&w=2064&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                        <div
+                            class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">&emsp;
+                            </h2>
+                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">One-horned rhino</h1>
+                            <p class="leading-relaxed">In Assam, the one-horned rhinoceros is a rare species found in Kaziranga, symbolizing its rich wildlife.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/3 sm:w-1/2 p-4">
+                    <div class="flex relative">
+                        <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
+                            src="https://images.unsplash.com/photo-1562315921-ca0e98571219?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                        <div
+                            class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">&emsp;
+                            </h2>
+                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Brahmaputra river</h1>
+                            <p class="leading-relaxed">The Brahmaputra River in Assam is a lifeline of the state, known for its vastness, scenic beauty, and cultural significance.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/3 sm:w-1/2 p-4">
+                    <div class="flex relative">
+                        <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
+                            src="https://images.unsplash.com/photo-1581168334628-818a1f8aef28?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                        <div
+                            class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">&emsp;
+                            </h2>
+                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Lil Guwahati</h1>
+                            <p class="leading-relaxed">Lil Guwahati is a scenic spot in Assam, reflecting the cultural charm and natural beauty of Guwahati.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/3 sm:w-2/3 p-4">
+                    <div class="flex relative card-img">
+                        <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
+                            src="https://plus.unsplash.com/premium_photo-1697730409114-ff9db6cc8277?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                        <div
+                            class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">&emsp;
+                            </h2>
+                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Kamakhya Temple</h1>
+                            <p class="leading-relaxed">Kamakhya Temple in Assam is a famous Shakti Peetha, revered for its tantric rituals and spiritual significance.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/3 sm:w-1/2 p-4">
+                    <div class="flex relative card-img">
+                        <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
+                            src="https://images.unsplash.com/photo-1714632432479-bb1b32871e44?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                        <div
+                            class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">&emsp;
+                            </h2>
+                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Manjuli Island</h1>
+                            <p class="leading-relaxed">Majuli Island in Assam is the world's largest river island, known for its scenic beauty and vibrant Vaishnavite culture.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/3 sm:w-1/2 p-4">
+                    <div class="flex relative card-img">
+                        <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
+                            src="https://plus.unsplash.com/premium_photo-1667668669608-499c3282f0d1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                        <div
+                            class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">&emsp;
+                            </h2>
+                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Kakochang Waterfalls</h1>
+                            <p class="leading-relaxed">Kakochang Waterfalls in Assam is a scenic and serene cascade near Kaziranga, popular for its natural beauty.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-white-600 body-font foot footer">
+        <div
+            class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+            <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mt-0 mt-10">
+                <a class="flex title-font font-medium items-center md:justify-start justify-center text-white-900">
+                    <img class="logo" src="../Travel_Guru.png"></img>
+                    <span class="ml-3 text-xl">Travel Guru</span>
+                </a>
+                <p class="mt-2 text-sm text-white-500">Your Tourism guide for best ever places you can think of visiting
+                </p>
+            </div>
+            <div class="flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center order-first">
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <h2
+                        class="title-font font-extrabold text-white-900 underline font-serif tracking-widest text-sm mb-3">
+                        State Tourism Websites</h2>
+                    <nav class="list-none mb-10">
+                        <li>
+                            <a href="https://www.gujarattourism.com/"
+                                class="text-white-600 hover:text-white-800">Gujrat</a>
+                        </li>
+                        <li>
+                            <a href="https://uttarakhandtourism.gov.in/"
+                                class="text-white-600 hover:text-white-800">Uttrakhand</a>
+                        </li>
+                        <li>
+                            <a href="http://megtourism.gov.in/"
+                                class="text-white-600 hover:text-white-800">Meghalaya</a>
+                        </li>
+                        <li>
+                            <a href="https://www.mptourism.com/" class="text-white-600 hover:text-white-800">Madhya
+                                Pradhesh</a>
+                        </li>
+                    </nav>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <h2 class="title-font font-medium text-white-900 tracking-widest text-sm mb-3">&emsp;</h2>
+                    <nav class="list-none mb-10">
+                        <li>
+                            <a href="https://www.keralatourism.org/"
+                                class="text-white-600 hover:text-white-800">Kerela</a>
+                        </li>
+                        <li>
+                            <a href="https://wbtourism.gov.in/" class="text-white-600 hover:text-white-800">West
+                                Bengal</a>
+                        </li>
+                        <li>
+                            <a href="http://www.uptourism.gov.in/" class="text-white-600 hover:text-white-800">Uttar
+                                Pradesh</a>
+                        </li>
+                        <li>
+                            <a href="https://tourism.bihar.gov.in/"
+                                class="text-white-600 hover:text-white-800">Bihar</a>
+                        </li>
+                    </nav>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <h2 class="title-font font-medium text-white-900 tracking-widest text-sm mb-3">&emsp;</h2>
+                    <nav class="list-none mb-10">
+                        <li>
+                            <a href="https://tourism.assam.gov.in/"
+                                class="text-white-600 hover:text-white-800">Assam</a>
+                        </li>
+                        <li>
+                            <a href="https://haryanatourism.gov.in/"
+                                class="text-white-600 hover:text-white-800">Haryana</a>
+                        </li>
+                        <li>
+                            <a href="http://punjabtourism.gov.in/"
+                                class="text-white-600 hover:text-white-800">Punjab</a>
+                        </li>
+                        <li>
+                            <a href="http://www.tamilnadutourism.org/" class="text-white-600 hover:text-white-800">Tamil
+                                Nadu</a>
+                        </li>
+                    </nav>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <h2
+                        class="title-font font-extrabold underline text-white-900 font-serif tracking-widest text-sm mb-3">
+                        Union Territory Tourism</h2>
+                    <nav class="list-none mb-10">
+                        <li>
+                            <a href="http://www.delhitourism.gov.in/delhitourism/index.jsp"
+                                class="text-white-600 hover:text-white-800">Delhi</a>
+                        </li>
+                        <li>
+                            <a href="https://www.andaman.gov.in/" class="text-white-600 hover:text-white-800">Andaman
+                                Nicobar</a>
+                        </li>
+                        <li>
+                            <a href="https://www.lakshadweeptourism.com/"
+                                class="text-white-600 hover:text-white-800">Lakshwadweep</a>
+                        </li>
+                        <li>
+                            <a href="http://www.pondytourism.in/"
+                                class="text-white-600 hover:text-white-800">Pudducherry</a>
+                        </li>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <script src="./Script.js"></script>
+</body>
+
+</html>
